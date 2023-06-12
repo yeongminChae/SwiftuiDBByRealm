@@ -64,7 +64,7 @@ struct CreateMemoView: View {
                             .disableAutocorrection(true)
                             .focused($focusedField, equals: .text)
                             .submitLabel(.done)
-                            .frame(width:.infinity, height:500)
+                            .frame(width: .infinity, height: 500)
                             .onAppear {
                                 title = proData.title
                             }

@@ -11,7 +11,7 @@ import SwiftUI
 struct DBInstallApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(memoVM: MemoViewModel())
         }
     }
 }
